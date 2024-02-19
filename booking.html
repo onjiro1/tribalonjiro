@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Us-Tribal Trends</title>
+    <link rel="shortcut icon" href="celtic.png" type="image/x-icon">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .booking{
+            display: flex;
+            background-image: url(back03.jpg);
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            height: 100dvh;
+        }
+        .brand{
+            display: flex;
+            
+        }
+        .brand a{
+            text-decoration: none;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 22px;
+        }
+        ul{
+            list-style: none;
+            align-items: center;
+            gap: 17px;
+            display: flex;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        nav{
+            height: 70px;
+            background: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            position: fixed;
+            width: 100%;
+        }
+        form{
+            width: 600px;
+            /* border: 1px solid white; */
+            height: auto;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        input{
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 20px;
+            height: 50px;
+            background-color: ghostwhite;
+            filter: invert();
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            border-radius: 10px;
+            background-color: gold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            
+                <div class="brand">
+                    <img src="celtic.png" alt="" width="40px" height="40px">
+                    <a href="Tribal Trends.html">TRIBAL TRENDS</a>
+                </div>
+                <ul>
+                    <li>
+                       <a href="Tribal Trends.html">HOME</a>
+                    </li>
+                    <!-- <li>
+                       <a href="">ARTISTS</a>
+                    </li> -->
+                    <li>
+                       <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                       <a href="">CONTACT US</a>
+                    </li>
+                </ul>
+               
+        </nav>
+        <div class="booking">
+            <form action="">
+                <input type="text" placeholder="Full Name">
+                <input type="number" placeholder="Phone Number">
+                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Part to Ink">
+                <input type="text" placeholder="Injuries,N/A,Allergies e.t.c">
+                <input type="text" placeholder="Notes to Artist">
+                <button>BOOK US</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
